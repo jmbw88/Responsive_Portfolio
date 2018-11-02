@@ -1,0 +1,159 @@
+body {
+    background-image: url("./Grey-Background.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    overflow:hidden;
+}
+
+#divOne {
+    position:relative;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    bottom: 80%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    background-color: #ffffff;
+
+}
+
+@media only screen and (max-width:768px) {
+
+    #divOne {
+        width: 100%;
+    }
+}
+
+#divTwo {
+    position:relative;
+    background-color:  #ffffff;
+    min-width: 768px;
+    height: 50%;
+    margin: 4% 20% 10% 10%;
+    padding: 10px 35px 10px 35px;
+    font-size: large;
+    border: 1px solid #dddddd;
+}
+
+
+
+#divThree {
+    position:absolute;
+    background-color:#666666;
+    bottom: 0;
+    width: 99%;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: xx-small;
+    border-top: 15px solid #4aaaa5
+    
+}
+
+#divName {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position:absolute;
+    bottom:0;
+    margin: 0 0 0 10%;
+    padding: 16px;
+    float: left;
+   
+}
+
+#divButton {
+    /* background-color: red; */
+
+    width: 28%;
+    min-width:28%;
+    position:absolute;
+    bottom: 0px;
+    right: 20%;
+    float: left;
+    padding-bottom: 2%;
+    font-size: small;
+
+   
+}
+
+img {
+    height:200px;
+    width: 200px;
+    float: left;
+    margin-top: 1%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+#aboutMe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    border-bottom: outset lightgrey 1px;
+}
+
+.aboutText {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 1%;
+    line-height: 1.6;
+}
+
+@media only screen and (min-width:980px) {
+
+    .aboutText {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: 1%;
+        line-height: 1.6;
+    }
+    
+}
+
+a {
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: none;
+    color: #777777;
+    margin: 0 1% 2% 0;
+
+}
+
+.container {
+    border-radius: 5px;
+    border-color: #777777;
+    padding: 20px;
+
+}
+
+input[type=text], select, textarea {
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+    margin: 6px 0 0 0;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}

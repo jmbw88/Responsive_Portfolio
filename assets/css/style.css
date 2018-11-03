@@ -22,11 +22,13 @@ body {
 #divTwo {
     position:relative;
     background-color:  #ffffff;
-    height: 50%;
-    margin: 4% 20% 10% 10%;
+    height: 500px;
+    max-width:980px;
+    margin: 2% 20% 10% 10%;
     padding: 10px 35px 10px 35px;
     font-size: large;
     border: 1px solid #dddddd;
+    overflow: scroll;
 }
 
 
@@ -138,6 +140,36 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+.portfolioImage {
+    position: relative;
+}
+
+.mainSection {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  height: 500px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+
+}
+
+.portfolioImage {
+    position: relative;
+    float: left;
+    height:200px;
+    width: 200px;
+    overflow: auto;
+  
+}
+
+h3 {
+    position: relative;
+    float: left;
 }
 
 @media only screen and (max-width:768px) {
